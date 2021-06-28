@@ -17,7 +17,7 @@ int	ft_str_is_alpha(char *str)
 
 	istrue = 0;
 	i = 0;
-	if (*str == "")
+	if (*str == '\0')
 		return (1);
 	while (str[i] != '\0')
 	{

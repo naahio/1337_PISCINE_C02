@@ -30,7 +30,7 @@ void	ft_putstr_non_printable(char *str)
 			else
 			{
 				c = "0123456789ABCDEF"[str[i] / 16];
-				write(1, '\\', 1);
+				write(1, '\', 1);
 				write(1, &c, 1);
 			}
 			i++;
